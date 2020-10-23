@@ -10254,8 +10254,8 @@ header.masthead .masthead-heading {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  width: 5rem;
-  height: 5rem;
+  width: 2rem;
+  height: 2rem;
   cursor: pointer;
   background-color: transparent;
 }
