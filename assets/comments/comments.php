@@ -8,6 +8,10 @@ if(empty($_POST['name']) || empty($_POST['message'])
    
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
+$file = fopen("assets/comments/comments.txt", "a") or die("unable to open file");
+$string = $name."\n".$comment."\n";
+fwrite($file, $string);
+fclose($file);
    
 // // Create the email and send the message
 // $to = 'yourname@yourdomain.com'; // Add your email address in between the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
