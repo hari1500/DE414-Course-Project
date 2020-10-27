@@ -10444,6 +10444,59 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+section#comments {
+  background-color: #212529;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* section#comments .section-heading {
+  color: #fff;
+} */
+section#comments form#commentsForm .form-group {
+  margin-bottom: 1.5rem;
+}
+section#comments form#commentsForm .form-group input,
+section#comments form#commentsForm .form-group textarea {
+  padding: 1.25rem;
+}
+section#comments form#commentsForm .form-group input.form-control {
+  height: auto;
+}
+section#comments form#commentsForm .form-group-textarea {
+  height: 100%;
+}
+section#comments form#commentsForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+section#comments form#commentsForm p.help-block {
+  margin: 0;
+}
+section#comments form#commentsForm .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#comments form#commentsForm ::-webkit-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#comments form#commentsForm :-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#comments form#commentsForm ::-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+section#comments form#commentsForm :-ms-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+
 .footer {
   text-align: center;
   font-size: 0.9rem;
